@@ -1,0 +1,13 @@
+<!-- Sidebar Section with Recommended Posts -->
+<aside class="w-full lg:w-64 space-y-6">
+    <div class="bg-white shadow p-4 rounded-lg">
+        <h3 class="text-lg font-semibold mb-3">Recommended Articles</h3>
+        <ul class="space-y-2 text-gray-700">
+            {% for post in site.posts %}
+            {% if post.recommended == true %}
+            <li><a href="{{ post.url }}" class="hover:underline">{{ post.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-10-29 16:19:51 +0900
+title:  "Buy AI generated images that drive conversion rates and helps your business"
+date:   2024-11-04 16:19:51 +0900
 category: ai insights
-header_image: https://picsum.photos/868/488
-recommended: false
+header_image: https://picsum.photos/868/489
+recommended: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

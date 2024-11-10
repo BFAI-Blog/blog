@@ -1,0 +1,39 @@
+<nav class="container mx-auto flex items-center justify-between py-4 px-6">
+    <div class="flex items-center space-x-4">
+        <img src="/assets/logo.png" alt="WhaleAI Logo" class="h-8">
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex space-x-6 text-gray-600">
+            <li><a href="/" class="hover:text-black">Home</a></li>
+            <li><a href="/ai-marketplace" class="hover:text-black">AI Marketplace</a></li>
+            <li><a href="/hiring" class="hover:text-black">Hiring</a></li>
+            <li><a href="/blog" class="font-semibold text-black">Blog</a></li>
+            <li><a href="/support" class="hover:text-black">Support</a></li>
+        </ul>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-toggle" class="md:hidden text-2xl">&#9776;</button>
+
+    <!-- Mobile Menu (Initially hidden) -->
+    <ul id="mobile-menu"
+        class="fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-6 text-gray-600 hidden">
+        <li><a href="/" class="text-2xl hover:text-black">Home</a></li>
+        <li><a href="/ai-marketplace" class="text-2xl hover:text-black">AI Marketplace</a></li>
+        <li><a href="/hiring" class="text-2xl hover:text-black">Hiring</a></li>
+        <li><a href="/blog" class="text-2xl font-semibold text-black">Blog</a></li>
+        <li><a href="/support" class="text-2xl hover:text-black">Support</a></li>
+        <button id="menu-close" class="text-2xl mt-6">&#10005;</button> <!-- Close button (X) -->
+    </ul>
+</nav>
+
+<script>
+    // JavaScript to toggle mobile menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    document.getElementById('menu-close').addEventListener('click', function () {
+        document.getElementById('mobile-menu').classList.add('hidden');
+    });
+</script>
