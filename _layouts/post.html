@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+<body class="font-sans bg-white text-gray-800 flex flex-col min-h-screen">
 
     <!-- Main Wrapper for Flexbox Layout -->
     <div class="flex-grow">
@@ -22,7 +22,9 @@
         <main class="container mx-auto flex flex-col lg:flex-row px-6 py-8 space-y-8 lg:space-y-0 lg:space-x-8">
             <!-- Main Article Section -->
             <section class="flex-1">
-                <img src="{{ page.header_image }}" alt="{{ page.title }}" class="w-full rounded-lg mb-4">
+                <div class="w-full rounded-lg mb-4 bg-gray-200" style="padding-top: 66.712%; position: relative;">
+                    <img src="{{ page.header_image }}" alt="{{ page.title }}" class="absolute top-0 left-0 w-full h-full object-cover rounded-lg">
+                </div>
                 <div>
                     <p class="text-indigo-600 font-semibold">{{ page.category | upcase }}</p>
                     <h1 class="text-3xl font-bold mt-2 mb-2">{{ page.title }}</h1>

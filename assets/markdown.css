@@ -63,3 +63,28 @@
     border-radius: 0.25rem;
     font-family: monospace;
 }
+
+.markdown-content ol {
+    list-style-type: decimal;
+    padding-left: 1em;
+}
+
+/* styles.css 또는 markdown.css */
+.markdown-content ul {
+    list-style-type: disc;
+    /* 불릿 포인트로 표시 */
+    padding-left: 1em;
+    /* 왼쪽에 여백 추가 */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-content ul ul {
+    list-style-type: circle;
+    /* 중첩된 목록은 원형으로 표시 */
+}
+
+.markdown-content ul ul ul {
+    list-style-type: square;
+    /* 더 깊은 중첩 목록은 사각형으로 표시 */
+}

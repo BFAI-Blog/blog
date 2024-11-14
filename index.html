@@ -9,7 +9,14 @@ title: "Home"
         <!-- Featured Post -->
         {% assign featured_post = site.posts.first %}
         <div class="featured-post mb-8">
-            <img src="{{ featured_post.header_image }}" alt="{{ featured_post.title }}" class="w-full rounded-lg mb-4">
+            <!-- Placeholder with aspect-ratio for featured image -->
+            <!-- <div class="w-full rounded-lg mb-4 bg-gray-200" style="padding-top: 56.25%; position: relative; overflow: hidden;"> -->
+            <a href="{{ featured_post.url }}" class="block w-full rounded-lg mb-4 bg-gray-200"
+                    style="padding-top: 50%; position: relative; overflow: hidden;">
+                <img src="{{ featured_post.header_image }}" alt="{{ featured_post.title }}"
+                    class="absolute top-0 left-0 w-full h-full object-cover">
+            </a>
+            <!-- </div> -->
             <p class="text-indigo-600 font-semibold">{{ featured_post.category | upcase }}</p>
             <h1 class="text-3xl font-bold mt-2 mb-2"><a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
             </h1>
@@ -19,9 +26,14 @@ title: "Home"
         <!-- Post List -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             {% for post in site.posts offset:1 %}
-            <!-- <div class="bg-white rounded-lg shadow p-4"> -->
-            <div class="">
-                <img src="{{ post.header_image }}" alt="{{ post.title }}" class="w-full rounded-lg mb-4">
+            <div>
+                <!-- Placeholder with aspect-ratio for post images -->
+                <!-- <div class="w-full rounded-lg mb-4 bg-gray-200" style="padding-top: 56.25%; position: relative; overflow: hidden;"> -->
+                <a href="{{ post.url }}" class="block w-full rounded-lg mb-4 bg-gray-200"
+                    style="padding-top: 66.59%; position: relative; overflow: hidden;">
+                    <img src="{{ post.header_image }}" alt="{{ post.title }}" class="absolute top-0 left-0 w-full h-full object-cover">
+                </a>
+                <!-- </div> -->
                 <p class="text-indigo-600 font-semibold">{{ post.category | upcase }}</p>
                 <h2 class="text-xl font-bold mt-2 mb-2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p class="text-gray-500">{{ post.date | date: "%B %d, %Y" }}</p>

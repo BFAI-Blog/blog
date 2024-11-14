@@ -29,3 +29,35 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+## 부제
+
+여기에 게시글을 적어주세요
+
+## 구분점
+
+* 이렇게 구분점을
+* 만들수도 있습니다.
+
+## 넘버링
+
+1. 혹은 이렇게
+1. 넘버링을 할수도 있습니다.
+
+## 코드
+
+`ClassName`처럼 작성하거나
+
+```
+이렇게 코드 Snippet을 만들수도 있습니다.
+```
+
+## 링크
+
+[네이버](https://naver.com)로 넘어가는 링크를 만들거나
+
+## 이미지
+
+![Image](https://picsum.photos/600/200)
+
+위와 같이 이미지를 첨부할 수도 있습니다.
