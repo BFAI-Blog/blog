@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LOREM IPSUM"
+title:  "Lorem Ipsum"
 date:   2024-11-01 16:19:51 +0900
 category: ai insights
 header_image: https://picsum.photos/868/487

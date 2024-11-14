@@ -1,23 +1,25 @@
 /* Markdown 전체 스타일 */
 .markdown-content {
-    line-height: 1.8;
-    color: #333;
-    font-size: 1rem;
+    line-height: 1.5;
+    color: #74819C;
+    font-size: 16px;
     margin-top: 2rem;
 }
 
 .markdown-content h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: #142B57;
 }
 
 .markdown-content h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    color: #142B57;
 }
 
 .markdown-content h3 {
@@ -25,6 +27,7 @@
     font-weight: bold;
     margin-top: 1.25rem;
     margin-bottom: 0.75rem;
+    color: #142B57;
 }
 
 .markdown-content p {

@@ -1,11 +1,21 @@
 <!-- Sidebar Section with Recommended Posts -->
+
+<style>
+    .recommended-title {
+        color: #8E90A1;
+    }
+    .recommended-post-title {
+        color: #142B57;
+    }
+</style>
+
 <aside class="w-full lg:w-64 space-y-6">
-    <div class="bg-white shadow p-4 rounded-lg">
-        <h3 class="text-lg font-semibold mb-3">Recommended Articles</h3>
+    <div class="bg-white border border-[#E9ECF0] p-4 rounded-lg">
+        <h3 class="text-lg font-medium mb-4 recommended-title border-b border-[#E9ECF0] pb-2">Recommended Articles</h3>
         <ul class="space-y-2 text-gray-700">
             {% for post in site.posts %}
             {% if post.recommended == true %}
-            <li><a href="{{ post.url }}" class="hover:underline">{{ post.title }}</a></li>
+            <li><a href="{{ post.url }}" class="font-medium recommended-post-title hover:underline">{{ post.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>
