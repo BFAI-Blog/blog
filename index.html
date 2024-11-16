@@ -20,10 +20,10 @@ title: "Home"
                     class="absolute top-0 left-0 w-full h-full object-cover">
             </a>
             <div class="mt-4">
-                <div class="text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider">
+                <div class="text-[#1c75f4] text-sm font-semibold leading-tight tracking-wider">
                     <p>{{ featured_post.category | upcase }}</p>
                 </div>
-                <div class="text-[#142b57] text-4xl font-medium mt-2">
+                <div class="text-[#142b57] text-xl font-bold md:text-4xl md:font-medium mt-2">
                     <p><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></p>
                 </div>
                 <div class="text-[#8694ab] text-sm font-semibold mt-4">
@@ -33,7 +33,7 @@ title: "Home"
         </div>
     
         <!-- Post List -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 md:mt-16">
             {% for post in site.posts offset:1 %}
             <div>
                 <!-- Placeholder with aspect-ratio for post images -->
@@ -42,14 +42,16 @@ title: "Home"
                     <img src="{{ post.header_image }}" alt="{{ post.title }}"
                         class="absolute top-0 left-0 w-full h-full object-cover">
                 </a>
-                <div class="mt-4 text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider">
-                    <p>{{ post.category | upcase }}</p>
-                </div>
-                <div class="mt-2 text-[#142b57] text-xl font-bold">
-                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                </div>
-                <div class="mt-4 text-[#8694ab] text-sm font-semibold leading-tight">
-                    <p>{{ post.date | date: "%d %b %Y" }}</p>
+                <div class="mt-4">
+                    <div class="text-[#1c75f4] text-sm font-semibold leading-tight tracking-wider">
+                        <p>{{ post.category | upcase }}</p>
+                    </div>
+                    <div class="text-[#142b57] text-xl font-bold mt-2">
+                        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                    </div>
+                    <div class="text-[#8694ab] text-sm font-semibold leading-tight mt-4">
+                        <p>{{ post.date | date: "%d %b %Y" }}</p>
+                    </div>
                 </div>
             </div>
             {% endfor %}
