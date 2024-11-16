@@ -3,57 +3,59 @@ layout: default
 title: "Home"
 ---
 
-<style>
-    @media (max-width: 1024px) {
-        .featured-post a,
-        .post-list a {
-            padding-top: 66% !important;
-        }
-    }
+<div class="text-[#0d1740] text-[32px] font-bold leading-9 mb-8">
+    <p>WhaleAI Blog</p>
+</div>
 
-    .post-title-color {
-        color: #142B57;
-    }
-
-    .text-blue-600 {
-        color: #1C75F4;
-    }
-</style>
-
-<section class="container mx-auto flex flex-col lg:flex-row px-6 py-8 space-y-8 lg:space-y-0 lg:space-x-8">
-    <!-- Main Article Section -->
-    <section class="flex-1">
+<div class="flex flex-col lg:flex-row gap-8">
+    <div class="flex-1">
+    
         <!-- Featured Post -->
         {% assign featured_post = site.posts.first %}
-        <div class="featured-post mb-8">
+        <div>
             <!-- Placeholder with aspect-ratio for featured image -->
-            <a href="{{ featured_post.url }}" class="block w-full rounded-lg mb-4 bg-gray-200"
-                    style="padding-top: 50%; position: relative; overflow: hidden;">
+            <a href="{{ featured_post.url }}" class="block w-full rounded-lg bg-gray-200"
+                style="padding-top: 50%; position: relative; overflow: hidden;">
                 <img src="{{ featured_post.header_image }}" alt="{{ featured_post.title }}"
                     class="absolute top-0 left-0 w-full h-full object-cover">
             </a>
-            <p class="text-blue-600 font-semibold">{{ featured_post.category | upcase }}</p>
-            <h2 class="text-2xl font-medium mt-2 mb-2 post-title-color"><a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
-            </h1>
-            <p class="text-gray-500">{{ featured_post.date | date: "%B %d, %Y" }}</p>
+            <div class="mt-4">
+                <div class="text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider">
+                    <p>{{ featured_post.category | upcase }}</p>
+                </div>
+                <div class="text-[#142b57] text-4xl font-medium mt-2">
+                    <p><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></p>
+                </div>
+                <div class="text-[#8694ab] text-sm font-semibold mt-4">
+                    <p>{{ featured_post.date | date: "%d %b %Y" }}</p>
+                </div>
+            </div>
         </div>
-
+    
         <!-- Post List -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
             {% for post in site.posts offset:1 %}
             <div>
                 <!-- Placeholder with aspect-ratio for post images -->
                 <a href="{{ post.url }}" class="block w-full rounded-lg mb-4 bg-gray-200"
                     style="padding-top: 66.59%; position: relative; overflow: hidden;">
-                    <img src="{{ post.header_image }}" alt="{{ post.title }}" class="absolute top-0 left-0 w-full h-full object-cover">
+                    <img src="{{ post.header_image }}" alt="{{ post.title }}"
+                        class="absolute top-0 left-0 w-full h-full object-cover">
                 </a>
-                <p class="text-blue-600 font-semibold">{{ post.category | upcase }}</p>
-                <h2 class="text-xl font-medium mt-2 mb-2" post-title-color><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <p class="text-gray-500">{{ post.date | date: "%B %d, %Y" }}</p>
+                <div class="mt-4 text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider">
+                    <p>{{ post.category | upcase }}</p>
+                </div>
+                <div class="mt-2 text-[#142b57] text-xl font-bold">
+                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                </div>
+                <div class="mt-4 text-[#8694ab] text-sm font-semibold leading-tight">
+                    <p>{{ post.date | date: "%d %b %Y" }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
-    </section>
-
+    </div>
+    
     {% include sidebar.html %}
-</section>
+    
+</div>

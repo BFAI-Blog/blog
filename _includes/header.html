@@ -1,43 +1,12 @@
-<div class="border-b border-[#DDE2E8]">
-    <nav class="container mx-auto flex items-center justify-between py-4 px-6">
-        <div class="flex items-center space-x-4">
-            <img src="/assets/logo-top.svg" alt="WhaleAI Logo" class="h-14 hidden md:block"> <!-- Hide logo on mobile -->
-
-            <!-- Desktop Menu -->
-            <ul class="hidden md:flex space-x-6 text-gray-600">
-                <li><a href="/" class="hover:text-black">Home</a></li>
-                <li><a href="/ai-marketplace" class="hover:text-black">AI Marketplace</a></li>
-                <li><a href="/hiring" class="hover:text-black">Hiring</a></li>
-                <li><a href="/blog" class="font-semibold text-black">Blog</a></li>
-                <li><a href="/support" class="hover:text-black">Support</a></li>
-            </ul>
-        </div>
-
-        <!-- Mobile Menu Button -->
-        <button id="menu-toggle" class="md:hidden text-2xl">&#9776;</button>
-    </nav>
-
-    <!-- Mobile Menu (Initially hidden) -->
-    <ul id="mobile-menu" class="md:hidden bg-white w-full text-gray-600 hidden">
-        <li><a href="/" class="block py-2 px-4 hover:text-black">Home</a></li>
-        <li><a href="/ai-marketplace" class="block py-2 px-4 hover:text-black">AI Marketplace</a></li>
-        <li><a href="/hiring" class="block py-2 px-4 hover:text-black">Hiring</a></li>
-        <li><a href="/blog" class="block py-2 px-4 font-semibold text-black">Blog</a></li>
-        <li><a href="/support" class="block py-2 px-4 hover:text-black">Support</a></li>
-    </ul>
+<div class="w-full h-[72px] px-2 sm:px-[72px] bg-white border-b border-[#dde2e8] justify-between items-center inline-flex">
+    <div class="grow shrink basis-0 h-14 justify-start items-center gap-12 flex">
+        <img src="/assets/logo-top.svg" alt="WhaleAI Logo" class="w-40 h-14 relative">
+    </div>
 </div>
 
-<script>
-    // JavaScript to toggle mobile menu
-    document.getElementById('menu-toggle').addEventListener('click', function () {
-        document.getElementById('mobile-menu').classList.toggle('hidden');
-    });
-</script>
-
-<style>
-    @media (max-width: 768px) {
-        #menu-toggle {
-            order: -1; /* Move the button to the left */
-        }
-    }
-</style>
+<!-- <div
+    class="w-full h-[72px] px-[72px] py-2 bg-white border-b border-[#dde2e8] justify-start items-center gap-8 inline-flex">
+    <div class="grow shrink basis-0 h-14 justify-start items-center gap-12 flex">
+        <div class="w-40 h-14 relative"></div>
+    </div>
+</div> -->

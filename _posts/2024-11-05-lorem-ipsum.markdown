@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lorem Ipsum"
+title:  "Buy AI generated images that drive conversion rates and helps your business"
 date:   2024-11-01 16:19:51 +0900
 category: ai insights
 header_image: https://picsum.photos/868/487

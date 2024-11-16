@@ -7,9 +7,23 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/assets/default.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <script>
+        // Tailwind 커스텀 설정
+        tailwind.config = {
+            theme: {
+                extend: {
+                    maxWidth: {
+                        '1200': '1248px', // 1200px 최대 너비 추가
+                    },
+                },
+            },
+        };
+    </script>
 </head>
 
-<body class="font-sans bg-white text-gray-800 flex flex-col min-h-screen">
+<body class="bg-white text-gray-800 min-h-screen">
 
     <!-- Header -->
     <header>
@@ -17,13 +31,33 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto flex-1">
+    <main class="container md:max-w-1200 mx-auto pt-16 p-6">
         {{ content }}
+
+        <div class="mt-16 mb-16 h-64 bg-red-100">
+            .
+        </div>
     </main>
 
     <!-- Footer -->
-    <footer>
-        {% include footer.html %}
+    <footer class="bg-gray-900 text-gray-400 py-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+    
+            <!-- Left Side: Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="/assets/logo-bottom.svg" alt="WhaleAI Logo" class="h-14">
+            </div>
+    
+            <!-- Center Text -->
+            <p class="text-center md:text-left mt-2 md:mt-0">
+                WhaleAI.ai © 2024. All rights reserved.
+            </p>
+    
+            <!-- Right Side: Support Link -->
+            <a href="/support" class="text-white hover:text-white mt-2 md:mt-0">
+                Go to WhaleAI Support
+            </a>
+        </div>
     </footer>
 
     <script src="/assets/script.js"></script>
