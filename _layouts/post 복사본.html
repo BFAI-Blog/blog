@@ -38,38 +38,24 @@
             <p>Back button</p>
         </div>
 
-        <div class="flex flex-col lg:flex-row gap-8">
-            <div class="flex-1">
-                
-                <!-- 상단 이미지 영역 Section -->
-
-                <div class="block w-full rounded-lg bg-gray-200"
-                    style="padding-top: 50%; position: relative; overflow: hidden;">
-                    <img src="{{ page.header_image }}" alt="{{ featured_post.title }}"
-                        class="absolute top-0 left-0 w-full h-full object-cover" />
-                </div>
-
-                <!-- 상단 카테고리/제목/날짜 영역 -->
-
-                <div class="text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider pt-4">
-                    {{ page.category }}
-                </div>
-
-                <div class="text-[#142b57] text-4xl font-medium leading-tight pt-2">
-                    {{ page.title }}
-                </div>
-
-                <div class="text-[#8694ab] text-sm font-semibold leading-tight pt-4">
-                    {{ page.date | date: "%d %b %Y" }}
-                </div>
-
-                <div class="markdown-content pt-16">
-                    {{ content }}
-                </div>
+        <!-- Main Article Section -->
+        <section class="flex-1">
+            <div class="w-full rounded-lg mb-4 bg-gray-200" style="padding-top: 66.712%; position: relative;">
+                <img src="{{ page.header_image }}" alt="{{ page.title }}" class="absolute top-0 left-0 w-full h-full object-cover rounded-lg" />
+            </div>
+            <div>
+                <p class="text-indigo-600 font-semibold">{{ page.category | upcase }}</p>
+                <h1 class="text-3xl font-medium mt-2 mb-2">{{ page.title }}</h1>
+                <p class="font-regular text-gray-500">{{ page.date | date: "%B %d, %Y" }}</p>
             </div>
 
-            {% include sidebar.html %}
-        </div>
+            <!-- Markdown content container -->
+            <div class="mt-8 prose prose-lg max-w-none markdown-content">
+                {{ content }}
+            </div>
+        </section>
+
+        {% include sidebar.html %}
     </main>
 
     <!-- Footer -->
