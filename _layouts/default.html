@@ -34,22 +34,7 @@
     <main class="container sm:max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
         {{ content }}
 
-        <div class="relative mt-16 mb-16 h-64 bg-[#2d55e3] flex justify-center items-center rounded-lg overflow-hidden">
-            <div class="w-[602px] h-[198px] flex flex-col justify-center items-center gap-4 relative z-10">
-            <div class="self-stretch text-center">
-                <span class="text-white text-5xl font-medium">
-                Unlock the potential of AI
-                </span>
-                <span class="text-[#dce7fd] text-5xl font-medium">
-                for your business
-                </span>
-            </div>
-            <div class="w-[220px] h-[50px] p-4 bg-[#1a2151] rounded-lg justify-center items-center gap-2 inline-flex">
-                <div class="text-white text-sm font-medium tracking-wider">Join now</div>
-            </div>
-            </div>
-            <img src="/assets/bottom-banner-people.svg" alt="People" class="absolute bottom-0 -right-4 h-48 object-cover z-0 md:-right-2 md:h-full">
-        </div>
+        {% include bottom_banner.html %}
     </main>
 
     {% include footer.html %}

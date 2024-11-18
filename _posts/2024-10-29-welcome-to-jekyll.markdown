@@ -35,6 +35,10 @@ Turpis auctor velit odio purus arcu mus elementum tincidunt. Arcu at condimentum
 
 - 혹은 이렇게
 - 구분점을 넣을 수도 있습니다.
+  - 이렇게 하면
+  - 깊은 뎁스의 구분점도
+    - 물론 만들 수 있죠.
+  - 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 길게 작성하면 어떻게 나올까요? 
 
 ## 코드
 
@@ -42,7 +46,12 @@ Turpis auctor velit odio purus arcu mus elementum tincidunt. Arcu at condimentum
 
 ```
 이렇게 코드 Snippet을 만들수도 있습니다.
+하지만 코드를 적을일이 많진 않을거 같군요.
 ```
+
+## blockquote
+
+> 그렇다면 이런 blockquote는 어떨까요? 이걸 한국어로 뭐라 하는지 모르겠어서 GPT에게 물어보니 인용구라는 표현이 적당할거 같네요. 
 
 ## 링크
 

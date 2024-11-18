@@ -5,41 +5,50 @@
     font-size: 16px;
 }
 
-.markdown-content h1 {
-    margin-top: 0rem;
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5 {
+    margin-top: 2rem;
     margin-bottom: 1rem;
 
     color: var(--Blue-950, #142B57);
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 32px;
 }
 
-.markdown-content h2 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+/* md: 최소 너비 768px */
+@media (min-width: 768px) {
+    .markdown-content h1,
+    .markdown-content h2,
+    .markdown-content h3,
+    .markdown-content h4,
+    .markdown-content h5 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
 
-    color: var(--Blue-950, #142B57);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 38px;
-}
+        color: var(--Blue-950, #142B57);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+    }
 
-.markdown-content p {
-    line-height: 1.5rem;
-    color: var(--Gray-600, #74819C);
-    
-    text-align: justify;
+    .markdown-content p {
+        line-height: 1.5rem;
+        color: var(--Gray-600, #74819C);
 
-    font-family: Pretendard;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+        text-align: justify;
 
-    margin-bottom: 2rem;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
 }
 
 .markdown-content img {
@@ -47,7 +56,7 @@
     height: auto;
     border-radius: var(--SizeUnit-8, 8px);
 
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .markdown-content ul,
@@ -70,7 +79,7 @@
 .markdown-content pre,
 .markdown-content code {
     background-color: #f5f5f5;
-    padding: 0.5rem;
+    padding: 0.25rem;
     border-radius: 0.25rem;
     font-family: monospace;
 }
@@ -92,10 +101,12 @@
 
 .markdown-content ul ul {
     list-style-type: circle;
-    /* 중첩된 목록은 원형으로 표시 */
 }
 
 .markdown-content ul ul ul {
     list-style-type: square;
-    /* 더 깊은 중첩 목록은 사각형으로 표시 */
+}
+
+.markdown-content a {
+    text-decoration: underline;
 }

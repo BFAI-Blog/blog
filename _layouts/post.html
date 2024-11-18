@@ -33,10 +33,10 @@
 
     <!-- Main Content -->
     <main class="container mx-auto sm:max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
-
-        <div class="text-[#0d1740] text-[32px] font-bold leading-9 mb-8">
-            <p>Back button</p>
-        </div>
+        <a href="/" class="h-6 justify-start items-center gap-2 inline-flex mb-6">
+            <img class="w-6 h-6 relative" src="/assets/chevron-left.svg"/>
+            <div class="text-black text-base font-normal">Back</div>
+        </a>
 
         <div class="flex flex-col lg:flex-row gap-8">
             <div class="flex-1">
@@ -55,7 +55,7 @@
                     {{ page.category }}
                 </div>
 
-                <div class="text-[#142b57] text-4xl font-medium leading-tight pt-2">
+                <div class="text-[#142b57] text-xl md:text-4xl font-bold md:font-medium leading-tight pt-2">
                     {{ page.title }}
                 </div>
 
@@ -63,13 +63,15 @@
                     {{ page.date | date: "%d %b %Y" }}
                 </div>
 
-                <div class="markdown-content pt-16">
+                <div class="markdown-content pt-0 md:pt-8">
                     {{ content }}
                 </div>
             </div>
 
             {% include sidebar.html %}
         </div>
+
+        {% include bottom_banner.html %}
     </main>
 
     <!-- Footer -->
