@@ -14,10 +14,9 @@ title: "Home"
         {% assign featured_post = site.posts.first %}
         <div>
             <!-- Placeholder with aspect-ratio for featured image -->
-            <a href="{{ featured_post.url }}" class="block w-full rounded-lg bg-gray-200"
-                style="padding-top: 50%; position: relative; overflow: hidden;">
+            <a href="{{ featured_post.url }}" class="block w-full bg-gray-200 rounded-lg">
                 <img src="{{ featured_post.header_image }}" alt="{{ featured_post.title }}"
-                    class="absolute top-0 left-0 w-full h-full object-cover">
+                    class="top-0 left-0 w-full h-[208px] md:h-[308px] lg:h-[362px] xl:h-[434px] object-cover rounded-lg">
             </a>
             <div class="mt-4">
                 <div class="text-[#1c75f4] text-sm font-semibold leading-tight tracking-wider">
@@ -37,10 +36,9 @@ title: "Home"
             {% for post in site.posts offset:1 %}
             <div>
                 <!-- Placeholder with aspect-ratio for post images -->
-                <a href="{{ post.url }}" class="block w-full rounded-lg mb-4 bg-gray-200"
-                    style="padding-top: 66.59%; position: relative; overflow: hidden;">
+                <a href="{{ post.url }}" class="block w-full bg-gray-200 rounded-lg mb-4">
                     <img src="{{ post.header_image }}" alt="{{ post.title }}"
-                        class="absolute top-0 left-0 w-full h-full object-cover">
+                        class="top-0 left-0 w-full h-[208px] md:h-[197px] lg:h-[233px] xl:h-[281px] object-cover rounded-lg">
                 </a>
                 <div class="mt-4">
                     <div class="text-[#1c75f4] text-sm font-semibold leading-tight tracking-wider">

@@ -17,6 +17,12 @@
                     maxWidth: {
                         '1200': '1248px', // 1200px 최대 너비 추가
                     },
+                    screens: {
+                        'sm': '360px',
+                        'md': '760px',
+                        'lg': '1200px',
+                        'xl': '1440px',
+                    }
                 },
             },
         };
@@ -31,7 +37,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container sm:max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
+    <main class="container max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
         {{ content }}
 
         {% include bottom_banner.html %}

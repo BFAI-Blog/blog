@@ -53,10 +53,36 @@
 
 .markdown-content img {
     width: 100%;
-    height: auto;
+    height: 208px;
     border-radius: var(--SizeUnit-8, 8px);
-
     margin-top: 2rem;
+}
+
+@media (min-width: 760px) {
+    .markdown-content img {
+        width: 100%;
+        height: 308px;
+        border-radius: var(--SizeUnit-8, 8px);
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .markdown-content img {
+        width: 100%;
+        height: 362px;
+        border-radius: var(--SizeUnit-8, 8px);
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .markdown-content img {
+        width: 100%;
+        height: 434px;
+        border-radius: var(--SizeUnit-8, 8px);
+        margin-top: 2rem;
+    }
 }
 
 .markdown-content ul,

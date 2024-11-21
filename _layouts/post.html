@@ -18,6 +18,12 @@
                     maxWidth: {
                         '1200': '1248px', // 1200px 최대 너비 추가
                     },
+                    screens: {
+                        'sm': '360px',
+                        'md': '760px',
+                        'lg': '1200px',
+                        'xl': '1440px',
+                    }
                 },
             },
         };
@@ -32,7 +38,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto sm:max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
+    <main class="container mx-auto max-w-1200 mx-auto pt-10 lg:pt-16 p-6">
         <a href="/" class="h-6 justify-start items-center gap-2 inline-flex mb-6">
             <img class="w-6 h-6 relative" src="/assets/chevron-left.svg"/>
             <div class="text-black text-base font-normal">Back</div>
@@ -43,10 +49,9 @@
                 
                 <!-- 상단 이미지 영역 Section -->
 
-                <div class="block w-full rounded-lg bg-gray-200"
-                    style="padding-top: 50%; position: relative; overflow: hidden;">
+                <div class="block w-full rounded-lg bg-gray-200">
                     <img src="{{ page.header_image }}" alt="{{ featured_post.title }}"
-                        class="absolute top-0 left-0 w-full h-full object-cover" />
+                        class="top-0 left-0 w-full h-[208px] md:h-[308px] lg:h-[362px] xl:h-[434px] object-cover rounded-lg" />
                 </div>
 
                 <!-- 상단 카테고리/제목/날짜 영역 -->
