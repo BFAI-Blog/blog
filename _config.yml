@@ -1,4 +1,4 @@
-title: BFAI Blog
+title: Whale AI Blog
 email: example@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -17,6 +17,8 @@ permalink: pretty  # URL 구조 설정
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
