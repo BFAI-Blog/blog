@@ -5,6 +5,7 @@ date:   2024-11-01 16:19:51 +0900
 category: ai insights
 header_image: https://picsum.photos/868/487
 recommended: true
+author: Joey
 ---
 
 ## Introduction to AI-Generated Images

@@ -5,6 +5,7 @@ date:   2024-10-29 16:19:51 +0900
 category: ai insights
 header_image: https://picsum.photos/868/488
 recommended: true
+author: Justin
 ---
 
 ## 넘버링

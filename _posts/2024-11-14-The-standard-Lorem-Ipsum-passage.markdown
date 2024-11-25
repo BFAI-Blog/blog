@@ -5,6 +5,7 @@ date:   2024-11-04 16:19:51 +0900
 category: Machine learning
 header_image: https://picsum.photos/868/489
 recommended: true
+author: Darren
 ---
 
 ## Introduction to AI-Generated Images
