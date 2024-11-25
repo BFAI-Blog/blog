@@ -1,11 +1,16 @@
 ---
 layout: post
+
 title:  "Buy AI generated images that drive conversion rates and helps your business"
+tags:     가, 나, 다라, 마바사
 date:   2024-11-01 16:19:51 +0900
 category: ai insights
 author: Joey
-header_image: https://picsum.photos/868/487
+
+image: https://picsum.photos/868/487
 recommended: true
+
+id: lorem-ipsum
 permalink: /lorem-ipsum/
 ---
 

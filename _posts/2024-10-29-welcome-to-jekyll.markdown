@@ -1,11 +1,16 @@
 ---
 layout: post
-title:  "Buy AI generated images that drive conversion rates and helps your business"
-date:   2024-10-29 16:19:51 +0900
+
+title:    Buy AI generated images that drive conversion rates and helps your business
+tags:     가, 나, 다라, 마바사
+date:     2024-10-29 16:19:51 +0900
 category: ai insights
 author: Justin
-header_image: https://picsum.photos/868/488
+
+image: https://picsum.photos/868/488
 recommended: true
+
+id: welcome-to-jekyll
 permalink: /welcome-to-jekyll/
 ---
 
