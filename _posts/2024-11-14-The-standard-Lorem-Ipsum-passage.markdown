@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Buy AI generated images that drive conversion rates and helps your business"
+title: "The standard lorem ipsum"
 tags: 가, 나, 다라, 마바사
 date: 2024-11-04 16:19:51 +0900
 category: Machine learning
