@@ -3,9 +3,10 @@ layout: post
 title:  "Buy AI generated images that drive conversion rates and helps your business"
 date:   2024-11-04 16:19:51 +0900
 category: Machine learning
+author: Darren
 header_image: https://picsum.photos/868/489
 recommended: true
-author: Darren
+permalink: /standard-lorem-ipsum/
 ---
 
 ## Introduction to AI-Generated Images

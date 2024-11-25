@@ -3,9 +3,10 @@ layout: post
 title:  "Buy AI generated images that drive conversion rates and helps your business"
 date:   2024-11-01 16:19:51 +0900
 category: ai insights
+author: Joey
 header_image: https://picsum.photos/868/487
 recommended: true
-author: Joey
+permalink: /lorem-ipsum/
 ---
 
 ## Introduction to AI-Generated Images
