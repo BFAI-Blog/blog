@@ -2,9 +2,9 @@ email: dev@bfai.ai
 title: Whale AI Blog
 description: >-
   Whale AI Blog is a blog that shares the latest information about AI and machine learning.
-baseurl: "bfai-blog.github.io/blog"
-domain: "bfai-blog.github.io/blog"
-url: "https://bfai-blog.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "blog.whaleai.com"
+domain: "blog.whaleai.com"
+url: "https://blog.whaleai.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
