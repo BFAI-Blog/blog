@@ -17,6 +17,7 @@ permalink:  /Common-Myths-About-AI-in-Business-Debunked/   # 마찬가지로 고
 # Common Myths About AI in Business—Debunked!
 
 ![Artificial Intelligence (AI) is revolutionizing technology and economics, empowering individuals with tools like ChatGPT and Claude to significantly boost productivity.](/assets/post_images/common_myths/Header.png)
+
 Artificial Intelligence (AI) is widely regarded as the next paradigm in technology and economics. Individuals are already leveraging tools like ChatGPT, Claude, Gemini, and Perplexity to dramatically enhance their productivity. A wealth of online articles illustrates how AI can amplify personal efficiency, offering numerous effective methods, many of which have proven highly impactful.
 
 But can organizations adopt AI in the same straightforward manner as individuals integrate tools like ChatGPT or Claude into their workflows? What about critical considerations such as the ROI of AI implementation, error rates post-deployment, internal controls, security risks, and collaboration challenges? And how can companies learn from existing success stories and failures?
@@ -30,12 +31,14 @@ This blog takes a deep dive into three common myths about AI, debunking them wit
 ---
 
 ## Myth 1: AI is Only for Big Corporations
-![AI adoption among small businesses is rapidly growing, driven by affordable cloud-based solutions and a 33.2% annual growth in the global SME AI software market.](assets/post_images/common_myths/SMEsadoptingAI.jpg)
+
+![AI adoption among small businesses is rapidly growing, driven by affordable cloud-based solutions and a 33.2% annual growth in the global SME AI software market.](/assets/post_images/common_myths/SMEsadoptingAI.jpg)
+
 AI is often perceived as a high-cost, high-complexity tool reserved for tech giants like Google, Amazon, or Microsoft. Many small and medium-sized enterprises (SMEs) assume they lack the resources, data, or expertise needed to implement AI effectively. This misconception has held back countless businesses from exploring the transformative potential of AI.
 
 However, AI has become increasingly accessible, thanks to cloud computing, open-source frameworks, and affordable SaaS platforms. Even small businesses with limited budgets can leverage AI for tasks such as marketing, inventory management, customer service, and more. Tools that once required dedicated data science teams are now user-friendly, scalable, and customizable for non-technical users, making them ideal for SMEs.
 
-![AI Adoption Statistics - AI adoption rates in small businesses](assets/post_images/common_myths/AdoptionStatistics.png)
+![AI Adoption Statistics - AI adoption rates in small businesses](/assets/post_images/common_myths/AdoptionStatistics.png)
 
 A significant factor contributing to this shift is the evolution of cloud-based AI tools. These platforms eliminate the need for costly on-premise infrastructure, providing businesses with on-demand AI solutions at a fraction of the cost. Many of these tools are subscription-based, offering flexibility and affordability. Furthermore, open-source AI frameworks have made it possible for businesses to experiment with AI models without incurring significant expenses. In short, the conditions for SMEs to adopt AI affordably are already in place.
 
@@ -46,7 +49,9 @@ The reasons are straightforward and can be attributed to two main factors. First
 WhaleAI is dedicated to addressing this critical gap in information. Through this blog, we aim to showcase real-world success stories of SMEs adopting AI effectively. Each case study will highlight the business’s initial challenges, the problems they sought to address with AI, the implementation process, and the results achieved after adoption. These stories will provide actionable insights and guidance for other SMEs considering AI adoption.
 
 ### Case Study A: Marketing Automation for an SME in Consumer Goods E-Commerce
-![Company A's AI cut ad costs by $5,000/month and boosted influencer ROI by 30–50%.](assets/post_images/common_myths/InfluencerCollage.png)
+
+![Company A's AI cut ad costs by $5,000/month and boosted influencer ROI by 30–50%.](/assets/post_images/common_myths/InfluencerCollage.png)
+
 Located in South Korea, Company A operates an online retail business specializing in sourcing and selling consumer goods such as hairdryers, travel luggage, beverage tumblers, massage pillows, and humidifiers, offering a total of 50 products. The company relies heavily on online advertising and Instagram influencer marketing, collaborating with around 200 influencers and running daily campaigns on platforms like Facebook and Instagram.
 
 #### Challenges Faced
@@ -71,7 +76,9 @@ WhaleAI assisted in planning and monitoring the implementation, as well as revie
 ---
 
 ### Case Study B: Inventory Optimization for a Fashion Retail SME
-![Company B's AI reduced overstock by 30% and raised profit margins by 8%.](assets/post_images/common_myths/InventoryOptimizationFashionRetail.jpg)
+
+![Company B's AI reduced overstock by 30% and raised profit margins by 8%.](/assets/post_images/common_myths/InventoryOptimizationFashionRetail.jpg)
+
 Company B, a Japan-based fashion retailer that designs, manufactures, and distributes men’s ties, socks, and accessories, faced the following challenges:
 
 #### Challenges Faced
@@ -102,7 +109,8 @@ Take the case studies, for example. Their success wasn’t a result of massive A
 
 ## Myth 2: AI Implementation is Too Expensive and Complex
 
-![AI is no longer exclusive to big corporations; SMEs can now leverage accessible tools.](assets/post_images/common_myths/ImplemetningComplexAI.jpg)
+![AI is no longer exclusive to big corporations; SMEs can now leverage accessible tools.](/assets/post_images/common_myths/ImplemetningComplexAI.jpg)
+
 The perception that AI adoption requires massive budgets, complex infrastructure, and a team of data scientists has long prevented small and medium-sized enterprises (SMEs) from exploring its potential. While this view may have been accurate a decade ago, advancements in cloud computing and off-the-shelf AI tools have now made AI accessible and cost-effective, even for businesses with limited resources. With the availability of open-source solutions, custom AI platforms, and tools like ChatGPT leveraging LLM technology, successful AI implementation can now be achieved within just one to two months.
 
 Most AI implementations today do not require significant upfront investments. However, the challenge lies in the lack of clear information on the initial costs, expected outcomes, and ROI—key details that businesses need for informed decision-making. WhaleAI addresses this gap by listening to each SME’s unique challenges and immediately providing tailored insights on costs and expected benefits. WhaleAI also supports businesses by assisting with implementation planning, monitoring the adoption process, and reviewing post-implementation outcomes. This comprehensive approach allows businesses to start small, address specific problems, and gradually scale their AI adoption as their confidence and understanding grow.
@@ -111,7 +119,8 @@ Most AI implementations today do not require significant upfront investments. Ho
 
 ### Case Study: Successful AI Adoption by a Regional Media Company
 
-![A media company reduced subscriber churn from 11% to 5%](assets/post_images/common_myths/SuccessfulAdoption.jpg)
+![A media company reduced subscriber churn from 11% to 5%](/assets/post_images/common_myths/SuccessfulAdoption.jpg)
+
 A regional online media company based in Singapore faced challenges in managing churn rates among its paid subscribers. Due to limited resources, the company hesitated to adopt AI. However, after evaluating a custom AI content recommendation engine introduced by WhaleAI, they decided to proceed. This AI tool analyzed user browsing and engagement histories to deliver personalized content recommendations.
 
 #### Implementation
@@ -142,7 +151,7 @@ One major barrier to AI adoption is the fear of complexity. Many businesses beli
 - Providing ready-to-use AI tools that require minimal customization or technical knowledge.
 - Offering continuous support to ensure smooth operation and optimization as the business grows.
 
-![WhaleAI ensures impactful and seamless AI adoption.](assets/post_images/common_myths/PromotionBanner.png)
+![WhaleAI ensures impactful and seamless AI adoption.](/assets/post_images/common_myths/PromotionBanner.png)
 
 ---
 
@@ -166,7 +175,7 @@ For AI systems to deliver meaningful results, it is crucial to first determine w
 
 ### Case Study: Overcoming Challenges in Implementing an AI Recommendation System for an E-Commerce Company
 
-![An e-commerce company improved sales and retention by 43% and 17% respectively after partnering with WhaleAI to resolve data issues and optimize its AI recommendation engine.](assets/post_images/common_myths/WhaleAIWebsite.png)
+![An e-commerce company improved sales and retention by 43% and 17% respectively after partnering with WhaleAI to resolve data issues and optimize its AI recommendation engine.](/assets/post_images/common_myths/WhaleAIWebsite.png)
 
 An online e-commerce company sought to increase customer engagement and boost sales by implementing an AI-driven product recommendation engine. The leadership team anticipated immediate results, believing the AI would significantly enhance revenue right away. However, unexpected issues arose during the initial deployment phase. The product catalog consisted of incomplete and inconsistent data, leading the AI to generate irrelevant recommendations. Customers expressed dissatisfaction with their shopping experience, and conversion rates stagnated despite the new system. Additionally, internal resistance emerged as team members struggled to interpret and act on the AI outputs.
 
@@ -197,7 +206,8 @@ Many SMEs perceive AI as a novel and intimidating technology, viewing its adopti
 AI is no longer a technology of the future; it is an essential tool for businesses aiming to maintain competitiveness in an increasingly data-driven world. Overcoming misconceptions about its costs, complexity, and outcomes is the key to success. As demonstrated in the earlier case studies, SMEs can adopt AI strategically, starting small, addressing challenges, and expanding incrementally.
 
 ### Conclusion
-![AI success brings efficiency, better experiences, and growth through realistic goals and expert support.](assets/post_images/common_myths/RobotHandAndHumanHand.png)
+![AI success brings efficiency, better experiences, and growth through realistic goals and expert support.](/assets/post_images/common_myths/RobotHandAndHumanHand.png)
+
 The journey to AI success is not without obstacles. However, the rewards—enhanced efficiency, improved customer experiences, and long-term growth—make the effort worthwhile. By setting realistic expectations, implementing carefully, and leveraging expert support, businesses can harness the true power of AI to transform operations and achieve sustainable innovation.
 
 **Are you ready to fully leverage AI’s potential for your business? Now is the time to take the first step.**
