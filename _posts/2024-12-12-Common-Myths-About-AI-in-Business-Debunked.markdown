@@ -34,6 +34,7 @@ This blog takes a deep dive into three common myths about AI, debunking them wit
 AI is often perceived as a high-cost, high-complexity tool reserved for tech giants like Google, Amazon, or Microsoft. Many small and medium-sized enterprises (SMEs) assume they lack the resources, data, or expertise needed to implement AI effectively. This misconception has held back countless businesses from exploring the transformative potential of AI.
 
 However, AI has become increasingly accessible, thanks to cloud computing, open-source frameworks, and affordable SaaS platforms. Even small businesses with limited budgets can leverage AI for tasks such as marketing, inventory management, customer service, and more. Tools that once required dedicated data science teams are now user-friendly, scalable, and customizable for non-technical users, making them ideal for SMEs.
+
 ![AI Adoption Statistics - AI adoption rates in small businesses](assets/post_images/common_myths/AdoptionStatistics.png)
 
 A significant factor contributing to this shift is the evolution of cloud-based AI tools. These platforms eliminate the need for costly on-premise infrastructure, providing businesses with on-demand AI solutions at a fraction of the cost. Many of these tools are subscription-based, offering flexibility and affordability. Furthermore, open-source AI frameworks have made it possible for businesses to experiment with AI models without incurring significant expenses. In short, the conditions for SMEs to adopt AI affordably are already in place.
