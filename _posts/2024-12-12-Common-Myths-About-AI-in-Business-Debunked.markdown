@@ -14,8 +14,6 @@ id:         Common-Myths-About-AI-in-Business-Debunked     # 게시글의 고유
 permalink:  /Common-Myths-About-AI-in-Business-Debunked/   # 마찬가지로 고유 값이며, 게시글의 주소를 결정하게 됩니다. blog.waleai.com/blahblah 의 blahblah를 담당합니다.
 ---
 
-여기서부터 글쓰기를 시작하세요.
-
 # Common Myths About AI in Business—Debunked!
 
 ![Artificial Intelligence (AI) is revolutionizing technology and economics, empowering individuals with tools like ChatGPT and Claude to significantly boost productivity.](assets/post_images/common_myths/Header.png)
