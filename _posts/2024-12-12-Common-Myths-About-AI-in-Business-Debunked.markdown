@@ -7,7 +7,7 @@ date:     2024-12-12 16:19:51 +0900   # 날짜/시간을 양식에 맞춰 적어
 category: ai insights                 # 카테고리 아무거나 편하게 적으시면 됩니다.
 author:   Jin
 
-image:        /assets/post_images/Header.png  # 썸네일 이미지 경로를 적어주시면 됩니다. 외부 이미지도 사용 가능합니다.
+image:        /assets/post_images/common_myths/Header.png  # 썸네일 이미지 경로를 적어주시면 됩니다. 외부 이미지도 사용 가능합니다.
 recommended:  true
 
 id:         Common-Myths-About-AI-in-Business-Debunked     # 게시글의 고유 값입니다.
