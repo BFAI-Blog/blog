@@ -49,26 +49,28 @@
                 
                 <!-- 상단 이미지 영역 Section -->
 
-                <div class="block w-full rounded-lg bg-gray-200">
-                    <img src="{{ page.image }}" alt="{{ featured_post.title }}"
-                        class="top-0 left-0 w-full h-[208px] md:h-[308px] lg:h-[362px] xl:h-[434px] object-cover rounded-lg" />
+                <div>
+                    <div class="block w-full rounded-lg bg-gray-200 mb-4">
+                        <img src="{{ page.image }}" alt="{{ featured_post.title }}"
+                            class="top-0 left-0 w-full h-[208px] md:h-[308px] lg:h-[362px] xl:h-[434px] object-cover rounded-lg" />
+                    </div>
+
+                    <!-- 상단 카테고리/제목/날짜 영역 -->
+
+                    <div class="text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider mb-2">
+                        {{ page.category }}
+                    </div>
+
+                    <div class="text-[#142b57] text-xl md:text-4xl font-bold md:font-medium leading-tight mb-4">
+                        {{ page.title }}
+                    </div>
+
+                    <div class="text-[#8694ab] text-sm font-semibold leading-tight mb-10">
+                        {{ page.date | date: "%d %b %Y" }}
+                    </div>
                 </div>
 
-                <!-- 상단 카테고리/제목/날짜 영역 -->
-
-                <div class="text-[#1c75f4] text-sm font-semibold uppercase leading-tight tracking-wider pt-4">
-                    {{ page.category }}
-                </div>
-
-                <div class="text-[#142b57] text-xl md:text-4xl font-bold md:font-medium leading-tight pt-2">
-                    {{ page.title }}
-                </div>
-
-                <div class="text-[#8694ab] text-sm font-semibold leading-tight pt-4 mb-10">
-                    {{ page.date | date: "%d %b %Y" }}
-                </div>
-
-                <div class="markdown-content pt-0">
+                <div class="markdown-content">
                     {{ content }}
                 </div>
             </div>
