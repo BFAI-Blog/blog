@@ -67,7 +67,7 @@
 
 .markdown-content img {
     width: 100%;
-    height: 208px;
+    /* height: 208px; */
     border-radius: var(--SizeUnit-8, 8px);
     object-fit: cover;
     object-position: center;
@@ -76,7 +76,7 @@
 @media (min-width: 760px) {
     .markdown-content img {
         width: 100%;
-        height: 308px;
+        /* height: 308px; */
         border-radius: var(--SizeUnit-8, 8px);
         object-fit: cover;
         object-position: center;
@@ -86,7 +86,7 @@
 @media (min-width: 1200px) {
     .markdown-content img {
         width: 100%;
-        height: 362px;
+        /* height: 362px; */
         border-radius: var(--SizeUnit-8, 8px);
         object-fit: cover;
         object-position: center;
@@ -96,7 +96,7 @@
 @media (min-width: 1440px) {
     .markdown-content img {
         width: 100%;
-        height: 434px;
+        /* height: 434px; */
         border-radius: var(--SizeUnit-8, 8px);
         object-fit: cover;
         object-position: center;
