@@ -16,7 +16,7 @@ permalink:  /How-Custom-AI-Solves-the-Challenges-of-Generative-AI-in-Marketing/ 
 
 ## Introduction
 
-![The evolution of AI-driven creativity: Generative AI tools like DALL-E and MidJourney reshaping human interaction in marketing.](/assets/post_images/marketing_agency/Robot.jpg)
+![The evolution of AI-driven creativity: Generative AI tools like DALL-E and MidJourney reshaping human interaction in marketing.](/assets/post_images/marketing_agency/Robot.png)
 
 Imagine a world where your marketing agency could instantly generate stunning, tailor-made visuals for every campaign. No delays, no endless revisions—just perfect images that resonate with your audience and elevate your brand. Sounds like a dream, right? With the rapid rise of generative AI tools like DALL-E and MidJourney, this vision seems within reach. But can these tools truly deliver the quality and consistency your agency needs to stand out?
 
