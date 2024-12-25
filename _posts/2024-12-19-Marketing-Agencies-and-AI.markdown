@@ -45,12 +45,12 @@ These tasks create immense pressure to deliver high volumes of creative work und
 In response to challenges like time constraints, high costs, and creative blocks, generative AI tools like DALL-E, MidJourney, and Stable Diffusion have gained immense traction in the marketing world. These tools promise to automate the creation of high-quality visuals, freeing creative teams to focus on more strategic and impactful work.
 
 - **Qualitative Benefits:** 
-- Generative AI provides a constant source of inspiration, producing fresh visuals that push creative boundaries and break free from routine ideas.
-- By handling repetitive tasks, AI allows designers to concentrate on refining concepts and crafting campaigns with deeper emotional and strategic value.
+    - Generative AI provides a constant source of inspiration, producing fresh visuals that push creative boundaries and break free from routine ideas.
+    - By handling repetitive tasks, AI allows designers to concentrate on refining concepts and crafting campaigns with deeper emotional and strategic value.
 
 - **Quantitative Benefits:**
-- Automation significantly reduces the time required to generate design variations, completing hours of work in mere minutes.
-- Cost efficiency improves as AI manages production, reducing the need for larger teams and minimizing overtime expenses.
+    - Automation significantly reduces the time required to generate design variations, completing hours of work in mere minutes.
+    - Cost efficiency improves as AI manages production, reducing the need for larger teams and minimizing overtime expenses.
 
 The dream is a future where generative AI not only enhances productivity but also elevates creativity, enabling marketing agencies to deliver innovative campaigns while operating more efficiently.
 
@@ -66,7 +66,7 @@ One of the significant drawbacks of generative AI tools like DALL-E or MidJourne
 
 ### Quality Issues in Generated Images
 
-![Common flaws in AI-generated visuals, such as distorted proportions and extra limbs, highlighting quality concerns.](/assets/post_images/marketing_agency/AlFail.png)
+![Common flaws in AI-generated visuals, such as distorted proportions and extra limbs, highlighting quality concerns.](/assets/post_images/marketing_agency/AIFail.png)
 
 Generative AI tools frequently fall short in producing flawless visuals. Common flaws include distorted proportions, unrealistic lighting, and, famously, extra fingers or limbs in images meant to depict humans. While these tools can create aesthetically pleasing results in ideal conditions, their outputs are often inconsistent. For example, a generative AI might produce an image of a model holding a product, but with subtle errors like misaligned shadows or distorted facial features. Such defects, even when minor, can undermine the professionalism required for promotional material or e-commerce platforms.
 
