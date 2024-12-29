@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:    2024 AI Innovations Through the Eyes of Ravi Kumar: Anticipating 2025           # 보여질 제목을 적어주시면 됩니다.
+title:    2024 AI Innovations Through the Eyes of Ravi Kumar, Anticipating 2025           # 보여질 제목을 적어주시면 됩니다.
 tags:     AI advancements 2024, AI trends 2025, ChatGPT-4o, Google Gemini 2.0, AI in software development, AI ethics, AI governance, AI in consumer devices, AI-driven healthcare, AI job displacement, AI and privacy, future of artificial intelligence, AI in daily life, AI in India, AI predictions 2025, AI impact on society            # 태그를 적어주시면 됩니다. 콤마로 구분되며, SEO에 도움이 됩니다.
 date:     2024-12-28 16:19:51 +0900   # 날짜/시간을 양식에 맞춰 적어주시면 됩니다. (시간은 보이지 않으니 아무 값이나 적으시면 됩니다.)
 category: ai insights                 # 카테고리 아무거나 편하게 적으시면 됩니다.
@@ -10,7 +10,7 @@ author:   Jin
 image:        /assets/post_images/ravi_kumar/header.png  # 썸네일 이미지 경로를 적어주시면 됩니다. 외부 이미지도 사용 가능합니다.
 recommended:  true
 
-id:         2024 AI Innovations Through the Eyes of Ravi Kumar: Anticipating 2025       # 게시글의 고유 값입니다.
+id:         2024 AI Innovations Through the Eyes of Ravi Kumar, Anticipating 2025       # 게시글의 고유 값입니다.
 permalink:  /2024-AI-Innovations-Through-the-Eyes-of-Ravi-Kumar/   # 마찬가지로 고유 값이며, 게시글의 주소를 결정하게 됩니다. blog.waleai.com/blahblah 의 blahblah를 담당합니다.
 ---
 
