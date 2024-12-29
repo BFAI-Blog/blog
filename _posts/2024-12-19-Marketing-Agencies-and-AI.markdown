@@ -16,7 +16,7 @@ permalink:  /How-Custom-AI-Solves-the-Challenges-of-Generative-AI-in-Marketing/ 
 
 ## Introduction
 
-![The evolution of AI-driven creativity: Generative AI tools like DALL-E and MidJourney reshaping human interaction in marketing.](/assets/post_images/marketing_agency/Robot.jpg)
+![The evolution of AI-driven creativity: Generative AI tools like DALL-E and MidJourney reshaping human interaction in marketing.](/assets/post_images/marketing_agency/Robot.png)
 
 Imagine a world where your marketing agency could instantly generate stunning, tailor-made visuals for every campaign. No delays, no endless revisions—just perfect images that resonate with your audience and elevate your brand. Sounds like a dream, right? With the rapid rise of generative AI tools like DALL-E and MidJourney, this vision seems within reach. But can these tools truly deliver the quality and consistency your agency needs to stand out?
 
@@ -28,7 +28,7 @@ This blog delves into what marketing agencies expect from AI, shedding light on 
 
 ### 1. Current Image-Related Tasks in Marketing Agencies
 
-![Marketing agencies’ diverse image-generation tasks for various platforms and campaigns.](/assets/post_images/marketing_agency/Makeup.jpg)
+![Marketing agencies’ diverse image-generation tasks for various platforms and campaigns.](/assets/post_images/marketing_agency/Makeup.png)
 
 Marketing agencies operate in an environment that demands constant creativity and speed. They handle a variety of image-related tasks, including channel-specific SNS marketing visuals, product-specific customizations, and seasonal campaign updates. Each project requires precision and attention to detail, with variations essential to keeping content engaging and relevant. Here are some typical examples and details of the tasks agencies handle the most:
 
@@ -40,17 +40,17 @@ These tasks create immense pressure to deliver high volumes of creative work und
 
 ### 2. Expectations from AI (The Dream)
 
-![AI solutions like DALL-E, MidJourney, and Stable Diffusion creating visually stunning outputs tailored for marketing.](/assets/post_images/marketing_agency/AICollage.jpg)
+![AI solutions like DALL-E, MidJourney, and Stable Diffusion creating visually stunning outputs tailored for marketing.](/assets/post_images/marketing_agency/AICollage.png)
 
 In response to challenges like time constraints, high costs, and creative blocks, generative AI tools like DALL-E, MidJourney, and Stable Diffusion have gained immense traction in the marketing world. These tools promise to automate the creation of high-quality visuals, freeing creative teams to focus on more strategic and impactful work.
 
 - **Qualitative Benefits:** 
-- Generative AI provides a constant source of inspiration, producing fresh visuals that push creative boundaries and break free from routine ideas.
-- By handling repetitive tasks, AI allows designers to concentrate on refining concepts and crafting campaigns with deeper emotional and strategic value.
+    - Generative AI provides a constant source of inspiration, producing fresh visuals that push creative boundaries and break free from routine ideas.
+    - By handling repetitive tasks, AI allows designers to concentrate on refining concepts and crafting campaigns with deeper emotional and strategic value.
 
 - **Quantitative Benefits:**
-- Automation significantly reduces the time required to generate design variations, completing hours of work in mere minutes.
-- Cost efficiency improves as AI manages production, reducing the need for larger teams and minimizing overtime expenses.
+    - Automation significantly reduces the time required to generate design variations, completing hours of work in mere minutes.
+    - Cost efficiency improves as AI manages production, reducing the need for larger teams and minimizing overtime expenses.
 
 The dream is a future where generative AI not only enhances productivity but also elevates creativity, enabling marketing agencies to deliver innovative campaigns while operating more efficiently.
 
@@ -60,13 +60,13 @@ The dream is a future where generative AI not only enhances productivity but als
 
 ### Failure to Align with Brand Identity and Tone
 
-![Example of generative AI mismatching brand identities, showcasing logos with inconsistent colors and fonts.](/assets/post_images/marketing_agency/Algo.jpg)
+![Example of generative AI mismatching brand identities, showcasing logos with inconsistent colors and fonts.](/assets/post_images/marketing_agency/Algo.png)
 
 One of the significant drawbacks of generative AI tools like DALL-E or MidJourney is their inability to consistently align with a brand's identity and tone. Brands invest heavily in crafting unique guidelines to ensure their visuals communicate a cohesive message. However, generic AI tools often produce visuals that deviate from these guidelines, resulting in mismatched imagery. For example, an AI-generated ad for a luxury fashion brand might feature overly simplistic designs, undermining the brand's sophisticated appeal. Similarly, an AI-created image for an eco-friendly brand might fail to reflect the earthy, natural tones that are crucial to its identity. On SNS channels, these inconsistencies confuse audiences, weakening brand recognition and reducing the overall impact of campaigns.
 
 ### Quality Issues in Generated Images
 
-![Common flaws in AI-generated visuals, such as distorted proportions and extra limbs, highlighting quality concerns.](/assets/post_images/marketing_agency/AlFail.jpg)
+![Common flaws in AI-generated visuals, such as distorted proportions and extra limbs, highlighting quality concerns.](/assets/post_images/marketing_agency/AIFail.png)
 
 Generative AI tools frequently fall short in producing flawless visuals. Common flaws include distorted proportions, unrealistic lighting, and, famously, extra fingers or limbs in images meant to depict humans. While these tools can create aesthetically pleasing results in ideal conditions, their outputs are often inconsistent. For example, a generative AI might produce an image of a model holding a product, but with subtle errors like misaligned shadows or distorted facial features. Such defects, even when minor, can undermine the professionalism required for promotional material or e-commerce platforms.
 
@@ -78,7 +78,7 @@ These limitations highlight the gap between the promises of generative AI and it
 
 ### 1. A Brief Introduction to Custom AI
 
-![Custom AI: Tailoring generative engines like Stable Diffusion to perfectly align with individual brand needs.](/assets/post_images/marketing_agency/CustomAI.jpg)
+![Custom AI: Tailoring generative engines like Stable Diffusion to perfectly align with individual brand needs.](/assets/post_images/marketing_agency/CustomAI.png)
 
 Custom AI represents a transformative leap in image generation technology, combining the power of advanced engines like Stable Diffusion with custom layers designed specifically for individual brand needs. Unlike generic tools, custom AI ensures alignment with a brand’s unique tone, style, and identity. By tailoring the AI to incorporate specific design guidelines and preferences, businesses can generate visuals that consistently reflect their values and messaging.
 
@@ -88,19 +88,19 @@ This integration of image generation engines with custom features empowers brand
 
 #### Wedding Dress Modeling Example
 
-![Comparison of generic vs. custom AI outputs for wedding dress visuals, emphasizing elegance and brand alignment.](/assets/post_images/marketing_agency/WeddingCollage.jpg)
+![Comparison of generic vs. custom AI outputs for wedding dress visuals, emphasizing elegance and brand alignment.](/assets/post_images/marketing_agency/WeddingCollage.png)
 
 Custom AI revolutionizes high-fashion marketing by producing luxurious visuals that resonate with target audiences. For instance, a side-by-side comparison of outputs from SDXL and custom AI reveals striking differences: the former delivers generic, polished images, while the latter creates visuals tailored to the elegance and sophistication of wedding dresses. The results elevate the brand’s image and appeal.
 
 #### Studio Photography Example
 
-![Generic AI vs. custom AI for skincare products: Sloppy vs. professional-grade, brand-consistent visuals.](/assets/post_images/marketing_agency/SkincareCollage.jpg)
+![Generic AI vs. custom AI for skincare products: Sloppy vs. professional-grade, brand-consistent visuals.](/assets/post_images/marketing_agency/SkincareCollage.png)
 
 Custom AI mimics the output of professional studio photography, ensuring consistency in product visuals. While generic tools like DALL-E may produce high-quality images, they often lack the coherence required for branding. In contrast, custom AI can generate consistent, professional-grade visuals that maintain a brand’s identity across product lines and campaigns.
 
 #### Image Variation Example
 
-![Custom AI enabling flawless image resizing for platform-specific ad formats, eliminating distortion and ensuring consistency.](/assets/post_images/marketing_agency/Resizecollage.jpg)
+![Custom AI enabling flawless image resizing for platform-specific ad formats, eliminating distortion and ensuring consistency.](/assets/post_images/marketing_agency/Resizecollage.png)
 
 One of custom AI’s most powerful applications lies in automating ad resizing and content adaptation for multiple platforms. Instead of manually creating different sizes and formats, custom AI handles the process efficiently while maintaining design integrity. This not only saves time but also ensures seamless consistency across platforms, enhancing campaign effectiveness and engagement.
 
