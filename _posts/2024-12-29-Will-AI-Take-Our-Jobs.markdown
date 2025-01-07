@@ -16,8 +16,6 @@ permalink:  /Will-AI-Take-Our-Jobs/   # 마찬가지로 고유 값이며, 게시
 
 ## Introduction: Framing the Debate
 
-![AI vs. Human Workforce: What You Need to Know](/assets/post_images/ai_jobs/robot.png)
-
 What does the future of jobs look like with AI? It’s a question that sparks both excitement and concern. Rapid advancements in artificial intelligence have made it a versatile tool, but they’ve also led to growing fears about the displacement of human labor. For example, the recent strike by the U.S. actors’ union highlighted worries about AI being used to replace roles traditionally performed by actors, such as background extras or motion capture work. This reflects a broader anxiety across industries about AI taking over tasks once considered uniquely human.
 
 While these fears are understandable, they don’t tell the whole story. AI’s increasing influence does bring challenges, but it also presents opportunities to rethink how work is done. Instead of focusing solely on the risks, what if we considered how AI might complement human efforts? Could it take over repetitive tasks, freeing people to focus on areas that require creativity, strategy, and emotional intelligence?
