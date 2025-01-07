@@ -16,8 +16,6 @@ permalink:  /2024-AI-Innovations-Through-the-Eyes-of-Ravi-Kumar/   # 마찬가�
 
 ## Introduction: Reflecting on AI's Evolution in 2024
 
-![Ravi Kumar, a 32-year-old full-stack developer based in Bengaluru, India](/assets/post_images/ravi_kumar/header.png)
-
 Meet Ravi Kumar, a 32-year-old full-stack developer based in Bengaluru, India. Ravi has spent the last year juggling freelance projects and mentoring aspiring coders online. When asked about AI advancements in 2024, Ravi lights up with excitement.
 
 “2024 was like watching a sci-fi movie unfold, only it was real,” Ravi begins. “From ChatGPT-4o’s multimodal abilities to Google’s Gemini 2.0 rewriting coding standards, AI didn’t just evolve—it skyrocketed. But while it’s amazing, I can’t help but wonder—are we truly ready for what’s coming in 2025?”
