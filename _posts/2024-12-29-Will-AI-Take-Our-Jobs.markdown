@@ -113,6 +113,6 @@ The future AI offers is rich with potential, but it also invites us to rethink d
 <iframe 
     src="https://1fe7a8f7.sibforms.com/serve/MUIFAPHln1df9FziIYypxc_a4qN2GXmWs7iMwCIaLxGEO_u9TBrDxPLDxxs4FHfJ2VnUxWjW9M1aqVlSyo4wH1_0vA0YrL1rRbHUe0Tf4iZ1OZy-MhAJJiInp22Yd3PHD9YOqUytOjsj0RKKV8qmVbXNpJDA1tcQ_8ZotuVQuSVvjMfEcHBscwIUUktnDlOez9ql0ynWrbtn_gHu" 
     frameborder="0" 
-    scrolling="no" 
+    scrolling="yes" 
     style="width: 100%; max-width: 600px; height: 800px; display: block; margin: 0 auto;">
 </iframe>
