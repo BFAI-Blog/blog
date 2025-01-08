@@ -108,10 +108,25 @@ In this new AI-driven future, how will our current values be tested? If work as 
 
 The future AI offers is rich with potential, but it also invites us to rethink deeply ingrained beliefs, challenging us to adapt not just our systems, but our philosophies as well.
 
-<iframe 
+<iframe>
+    <style>
+  /* 기본 스타일 (데스크탑 화면용) */
+  .responsive-iframe {
+
+    height: 800px; /* 데스크탑 화면 높이 */
+
+  }
+
+  /* 모바일 화면 (max-width: 550px) iframe이 작아지기 시작하는 width */
+  @media (max-width: 550px) {
+    .responsive-iframe {
+      height: 1000px; /* 모바일 화면 높이 */
+    }
+  }
+</style>
     src="https://1fe7a8f7.sibforms.com/serve/MUIFAPHln1df9FziIYypxc_a4qN2GXmWs7iMwCIaLxGEO_u9TBrDxPLDxxs4FHfJ2VnUxWjW9M1aqVlSyo4wH1_0vA0YrL1rRbHUe0Tf4iZ1OZy-MhAJJiInp22Yd3PHD9YOqUytOjsj0RKKV8qmVbXNpJDA1tcQ_8ZotuVQuSVvjMfEcHBscwIUUktnDlOez9ql0ynWrbtn_gHu" 
     frameborder="0" 
     scrolling="no" 
     style="width: 100%; max-width: 600px; display: block; margin: 0 auto; overflow-y:hidden"
-    class="responsive-iframe">
+    class="responsive-iframe"
 </iframe>
