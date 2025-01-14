@@ -156,3 +156,30 @@ AI-driven content recommendations have revolutionized the way businesses interac
 The benefits are clear: higher engagement rates, increased conversions, and optimized resource allocation. Companies embracing custom AI solutions gain an edge by aligning recommendations with their brand identity and audience preferences, ensuring precision and scalability as they grow.
 
 As businesses navigate an increasingly competitive landscape, adopting AI-driven recommendations isn’t just a choice—it’s a strategic necessity. By investing in this transformative technology, companies can create meaningful connections with their customers, unlocking new opportunities for innovation and growth. The future of customer engagement lies in personalized, AI-powered interactions that deliver both value and satisfaction.
+
+
+<head>
+  <style>
+    /* 기본 스타일 (데스크탑 화면용) */
+    .responsive-iframe {
+      height: 800px; /* 데스크탑 화면 높이 */
+      width: 100%; /* iframe 너비 */
+      max-width: 600px; /* 최대 너비 */
+      display: block;
+      margin: 0 auto;
+      overflow-y: hidden;
+    }
+
+    /* 모바일 화면 (max-width: 550px) iframe이 작아지기 시작하는 width */
+    @media (max-width: 550px) {
+      .responsive-iframe {
+        height: 1000px; /* 모바일 화면 높이 */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <iframe class="responsive-iframe" src="https://1fe7a8f7.sibforms.com/serve/MUIFACR7kISsRh1XGjYPLPdiRPN8WubI5whZgIdC4UpZLtGrtar--wfmyuDlYychypN_bHZpkNcBr2_adpymapWUgTveXpXpnWyUTlwbi0mWxj1Ttqv9yYYerNR5wpP39qxy5yJHoly6lBS9iB-EATKW4BSigu9D9uxINOLeEBmFX0DlDLmnhWHmGZlHb-GA2kRhWj-cOhFjCSwZ"
+  frameborder="0" scrolling="auto" allowfullscreen></iframe>
+</body>
